@@ -1,3 +1,7 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -21,6 +25,11 @@
     align-items: flex-start;
   
   }
+
+.centrar-inputname-botonvolver{  
+    max-width: 316px;
+    display: grid;
+    margin: 0 auto;}
 
 
 

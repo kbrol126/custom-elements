@@ -5,6 +5,8 @@ import { initSubTituloEl } from "./components/subtitulo";
 import { initPEl } from "./components/p";
 import { initH4El } from "./components/h4";
 import { initInputName } from "./components/input";
+import { initButton } from "./components/button-volver";
+import { initFooter } from "./components/footer";
 (function main() {
   initHeaderEl();
   initTituloEl();
@@ -13,4 +15,6 @@ import { initInputName } from "./components/input";
   initPEl();
   initH4El();
   initInputName();
+  initButton();
+  initFooter();
 })();

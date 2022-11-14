@@ -12,7 +12,7 @@ export function initInputName() {
       divEl.setAttribute("class", "div-contenedor");
       var styleInputName = document.createElement("style");
       styleInputName.textContent =
-        ".div-contenedor{box-sizing: border-box; max-width:400px;display: flex;flex-direction: column;gap: 16px;margin: 69px 0;}@media(min-width:600px).div-contenedor{margin:69px auto}}";
+        ".div-contenedor{box-sizing: border-box; max-width:400px;display: flex;flex-direction: column;gap: 16px;margin: 69px 0;align-items: center}@media(min-width:600px){.div-contenedor{margin:69px auto}}";
       shadow.appendChild(styleInputName);
       shadow.appendChild(divEl);
 
@@ -22,7 +22,7 @@ export function initInputName() {
       labelEl.setAttribute("class", "nombre");
       var styleLabelEl = document.createElement("style");
       styleLabelEl.textContent =
-        ".nombre{font-family: 'Roboto';font-style: normal;font-weight: 400;font-size: 18px;line-height: 21px;color: #000000;}";
+        ".nombre{width:312px;font-family: 'Roboto';font-style: normal;font-weight: 400;font-size: 18px;line-height: 21px;color: #000000;}";
       labelEl.appendChild(styleLabelEl);
       labelEl.setAttribute("for", "fname");
 
