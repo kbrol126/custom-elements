@@ -1,9 +1,10 @@
 *{
     box-sizing: border-box;
     margin: 0;
+ 
 }
 .contenedor-general{
-  padding: 0 30px ;
+  padding: 30px ;
   display: grid;
  
 }
@@ -16,11 +17,11 @@
 
 .contenedor{
     max-width: 600px;
-    display: flex;
-    flex-direction: column;
+    display: grid;
     align-items: flex-start;
   
   }
 
 
 
+ 

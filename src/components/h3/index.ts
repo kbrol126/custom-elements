@@ -12,7 +12,7 @@ export function initH3El() {
       var style = document.createElement("style");
 
       style.textContent =
-        ".h3__debajo_del_titulo{font-family: 'Roboto';font-style: normal;font-weight: 400;font-size: 18px;line-height: 21px;color: #000000;margin:0 auto}@media (min-width:600px){.h3__debajo_del_titulo{width: auto;display: flex;align-items: center;justify-content: center;}}";
+        ".h3__debajo_del_titulo{font-family: 'Roboto';font-style: normal;font-weight: 400;font-size: 18px;line-height: 21px;color: #000000;margin:0 auto}@media (min-width:600px){.h3__debajo_del_titulo{width: auto;display: flex;align-items: center;}}";
 
       shadow.appendChild(style);
       shadow.appendChild(h3El);

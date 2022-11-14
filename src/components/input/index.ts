@@ -9,10 +9,10 @@ export function initInputName() {
 
       //creacion del div contenedor//
       var divEl = document.createElement("div");
-      divEl.setAttribute("class", "input-name");
+      divEl.setAttribute("class", "div-contenedor");
       var styleInputName = document.createElement("style");
       styleInputName.textContent =
-        ".input-name{display: flex;flex-direction: column;gap: 16px;margin: 69px auto;}";
+        ".div-contenedor{box-sizing: border-box; max-width:400px;display: flex;flex-direction: column;gap: 16px;margin: 69px 0;}@media(min-width:600px).div-contenedor{margin:69px auto}}";
       shadow.appendChild(styleInputName);
       shadow.appendChild(divEl);
 
@@ -31,7 +31,7 @@ export function initInputName() {
       inputEl.setAttribute("class", "input");
       var styleInputEl = document.createElement("style");
       styleInputEl.textContent =
-        ".input{min-Width:312px;Height:55px;border: 2px solid #000000;border-radius: 4px;}";
+        ".input{Width:310px;Height:55px;border: 2px solid #000000;border-radius: 4px;padding:0;margin:0}";
       inputEl.appendChild(styleInputEl);
       inputEl.setAttribute("id", "fname");
       inputEl.setAttribute("type", "text");
@@ -44,7 +44,7 @@ export function initInputName() {
       botonEl.setAttribute("class", "button");
       var stylebotonEl = document.createElement("style");
       stylebotonEl.textContent =
-        ".button{display:grid; align-items:center;min-Width:312px;Height:55px;font-family: 'Roboto';font-style: normal;font-weight: 500;font-size: 22px;line-height: 26px;text-align: center;color: #000000;background: #9CBBE9;border-radius: 4px;}";
+        ".button{display:grid; align-items:center;Width:312px;Height:55px;font-family: 'Roboto';font-style: normal;font-weight: 500;font-size: 22px;line-height: 26px;text-align: center;color: #000000;background: #9CBBE9;border-radius: 4px;}";
       botonEl.appendChild(stylebotonEl);
 
       //agrego los elementos hijos al div padre//
